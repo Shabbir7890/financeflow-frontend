@@ -1,0 +1,13 @@
+.dashboard h3 { font-size: 1.1rem; font-weight: 700; margin-bottom: 20px; }
+.stat-cards { margin-bottom: 24px; }
+.chart-row { margin-bottom: 24px; }
+.recent-list { display: flex; flex-direction: column; }
+.recent-item {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 0; border-bottom: 1px solid var(--border);
+}
+.recent-item:last-child { border-bottom: none; }
+.recent-info { display: flex; flex-direction: column; gap: 4px; }
+.recent-merchant { font-weight: 600; font-size: 0.95rem; }
+.recent-meta { color: var(--text-muted); font-size: 0.8rem; }
+.recent-amount { font-weight: 700; font-size: 1rem; }
